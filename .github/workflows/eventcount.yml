@@ -1,0 +1,56 @@
+name: Update EliteCC Event Count
+
+on:
+  schedule:
+    - cron: "*/30 * * * *" # every 30 minutes (adjust if you want)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Fetch events and update eventcount.json
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          URL="https://api.truckersmp.com/v2/vtc/81143/events/attending"
+
+          echo "Fetching: $URL"
+          # Response is expected to be JSON array (or object containing an array).
+          RESP="$(curl -sS "$URL")"
+
+          # Try to count as array first; fallback if it's { data: [...] } or { events: [...] }.
+          COUNT="$(echo "$RESP" | jq 'if type=="array" then length elif .data then (.data|length) elif .events then (.events|length) else 0 end')"
+
+          UPDATED_AT="$(date -u +"%Y-%m-%dT%H:%M:%SZ")"
+
+          echo "Count=$COUNT UpdatedAt=$UPDATED_AT"
+
+          jq -n \
+            --argjson n "$COUNT" \
+            --arg t "$UPDATED_AT" \
+            '{eventsThisMonth: $n, updatedAt: $t}' \
+            > eventcount.json
+
+      - name: Commit if changed
+        shell: bash
+        run: |
+          if git diff --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add eventcount.json
+          git commit -m "Update Events This Month count"
+          git push
