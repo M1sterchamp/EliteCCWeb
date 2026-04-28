@@ -1,8 +1,8 @@
-name: Update EliteCC Minimal Events JSON
+name: Update EliteCC Minimal Events JSON (Forced Commit)
 
 on:
   schedule:
-    - cron: "0 2 * * *" # every 24 hours at 02:00 UTC
+    - cron: "0 2 * * *"
   workflow_dispatch:
 
 permissions:
@@ -18,48 +18,44 @@ jobs:
         with:
           fetch-depth: 1
 
-      - name: Fetch events and write minimal events.json (forced shape)
+      - name: Show branch/ref + generate events.json
         shell: bash
         run: |
           set -euo pipefail
 
-          URL="https://api.truckersmp.com/v2/vtc/81143/events/attending"
-          echo "Fetching: $URL"
+          echo "GITHUB_REF=$GITHUB_REF"
+          echo "GITHUB_REF_NAME=$GITHUB_REF_NAME"
+          echo "Current git branch:"
+          git branch --show-current || true
 
+          URL="https://api.truckersmp.com/v2/vtc/81143/events/attending"
           RESP="$(curl -sS "$URL")"
 
-          # Force minimal schema exactly:
-          # events.json => [
-          #   { "id": ..., "title": ..., "start": ..., "url": ... },
-          #   ...
-          # ]
-          echo "$RESP" | jq '[
-            .response[]? | {
-              id: .id,
-              title: .name,
-              start: .start_at,
-              url: .url
-            }
-          ]' > events.json
+          # Force a change every run by including updatedAt
+          UPDATED_AT="$(date -u +"%Y-%m-%dT%H:%M:%SZ")"
 
-          echo "events.json written:"
-          echo "Count:"
-          jq 'length' events.json
+          echo "$RESP" | jq --arg t "$UPDATED_AT" '{
+            updatedAt: $t,
+            events: [
+              .response[]? | {
+                id: .id,
+                title: .name,
+                start: .start_at,
+                url: .url
+              }
+            ]
+          }' > events.json
 
-          echo "First item:"
-          jq '.[0]' events.json || true
+          echo "events.json preview:"
+          cat events.json | head -n 20
 
-      - name: Commit & push if changed
+      - name: Commit & push (force)
         shell: bash
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          if git diff --quiet; then
-            echo "No changes to commit."
-            exit 0
-          fi
-
+          # Always commit (even if content somehow matches)
           git add events.json
-          git commit -m "Update minimal events.json"
+          git commit -m "Force update events.json"
           git push
