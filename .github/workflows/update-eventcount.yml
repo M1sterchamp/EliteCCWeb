@@ -26,18 +26,16 @@ jobs:
           URL="https://api.truckersmp.com/v2/vtc/81143/events/attending"
           RESP="$(curl -sS "$URL")"
 
-          # { error: false, response: [ ... ] }
           EVENTS_JSON="$(echo "$RESP" | jq -c '.response // []')"
 
           OVERALL_COUNT="$(echo "$EVENTS_JSON" | jq 'length')"
 
-          # Count events where meetup_at is in current UTC month.
-          # meetup_at example: "2026-05-09 17:00:00"
+          # Compare YYYY-MM directly from meetup_at (format: "YYYY-MM-DD HH:MM:SS")
           THIS_MONTH_COUNT="$(
             echo "$EVENTS_JSON" | jq -r --arg now "$(date -u +'%Y-%m')" '
               [
                 .[]
-                | select((.meetup_at // "") | gsub(" "; "T") | fromdateiso8601 | strftime("%Y-%m") == $now)
+                | select((.meetup_at // "") | .[0:7] == $now)
               ] | length
             '
           )"
@@ -68,3 +66,4 @@ jobs:
           git add eventcount.json
           git commit -m "Update EliteCC event counts"
           git push
+          
