@@ -1,4 +1,4 @@
-name: Update EliteCC Event Count
+name: Update EliteCC Event Counts
 
 on:
   schedule:
@@ -26,43 +26,45 @@ jobs:
           URL="https://api.truckersmp.com/v2/vtc/81143/events/attending"
           RESP="$(curl -sS "$URL")"
 
-          COUNT="$(
-            echo "$RESP" | jq '
-              if type=="array" then length
-              elif .response then (.response | length)
-              elif .data then (.data | length)
-              elif .events then (.events | length)
-              elif .results then (.results | length)
-              else 0 end
+          # { error: false, response: [ ... ] }
+          EVENTS_JSON="$(echo "$RESP" | jq -c '.response // []')"
+
+          OVERALL_COUNT="$(echo "$EVENTS_JSON" | jq 'length')"
+
+          # Count events where meetup_at is in current UTC month.
+          # meetup_at example: "2026-05-09 17:00:00"
+          THIS_MONTH_COUNT="$(
+            echo "$EVENTS_JSON" | jq -r --arg now "$(date -u +'%Y-%m')" '
+              [
+                .[]
+                | select((.meetup_at // "") | gsub(" "; "T") | fromdateiso8601 | strftime("%Y-%m") == $now)
+              ] | length
             '
           )"
 
           UPDATED_AT="$(date -u +"%Y-%m-%dT%H:%M:%SZ")"
 
           jq -n \
-            --argjson n "$COUNT" \
+            --argjson overall "$OVERALL_COUNT" \
+            --argjson month "$THIS_MONTH_COUNT" \
             --arg t "$UPDATED_AT" \
-            '{ eventsThisMonth: $n, updatedAt: $t, source: "events/attending" }' \
+            '{ eventsThisMonth: $month, eventsOverall: $overall, updatedAt: $t, source: "events/attending" }' \
             > eventcount.json
 
           echo "eventcount.json now:"
           cat eventcount.json
 
-          if [ -f "eventcount.json" ]; then
-            echo "eventcount.json exists locally in workspace."
-          else
-            echo "eventcount.json missing in workspace!"
-            exit 1
-          fi
-
-      - name: Commit and push
+      - name: Commit if changed
         shell: bash
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          git add eventcount.json
+          if git diff --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
 
-          # Always commit (even if contents identical but updatedAt differs)
-          git commit -m "Update Events This Month count" || echo "Nothing to commit"
+          git add eventcount.json
+          git commit -m "Update EliteCC event counts"
           git push
