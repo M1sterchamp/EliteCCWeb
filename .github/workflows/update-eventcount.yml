@@ -2,7 +2,7 @@ name: Update EliteCC Event Counts
 
 on:
   schedule:
-    - cron: "*/30 * * * *"
+    - cron: "0 2 * * *" # every 24 hours at 02:00 UTC (adjust if you want)
   workflow_dispatch:
 
 permissions:
