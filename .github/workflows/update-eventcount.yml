@@ -2,7 +2,7 @@ name: Update EliteCC Event Count
 
 on:
   schedule:
-    - cron: "*/30 * * * *" # every 30 minutes (adjust if you want)
+    - cron: "*/30 * * * *" # every 30 minutes (adjust if needed)
   workflow_dispatch:
 
 permissions:
@@ -16,35 +16,57 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Fetch events and update eventcount.json
+      - name: Fetch events and update eventcount.json (debug + robust parsing)
         shell: bash
         run: |
           set -euo pipefail
 
           URL="https://api.truckersmp.com/v2/vtc/81143/events/attending"
-
           echo "Fetching: $URL"
-          # Response is expected to be JSON array (or object containing an array).
+
           RESP="$(curl -sS "$URL")"
 
-          # Try to count as array first; fallback if it's { data: [...] } or { events: [...] }.
-          COUNT="$(echo "$RESP" | jq 'if type=="array" then length elif .data then (.data|length) elif .events then (.events|length) else 0 end')"
+          echo "HTTP fetch complete."
+          echo "Response first 1500 chars:"
+          echo "----"
+          echo "$RESP" | head -c 1500
+          echo
+          echo "----"
+
+          # Try multiple possible shapes:
+          # - direct array
+          # - { data: [...] }
+          # - { events: [...] }
+          # - { results: [...] }
+          COUNT="$(
+            echo "$RESP" | jq '
+              if type=="array" then length
+              elif .data then (.data | length)
+              elif .events then (.events | length)
+              elif .results then (.results | length)
+              else 0 end
+            '
+          )"
+
+          # Optional: also print detected array length candidates if any exist
+          echo "Count computed: $COUNT"
 
           UPDATED_AT="$(date -u +"%Y-%m-%dT%H:%M:%SZ")"
-
-          echo "Count=$COUNT UpdatedAt=$UPDATED_AT"
 
           jq -n \
             --argjson n "$COUNT" \
             --arg t "$UPDATED_AT" \
-            '{eventsThisMonth: $n, updatedAt: $t}' \
+            '{ eventsThisMonth: $n, updatedAt: $t, source: "events/attending" }' \
             > eventcount.json
+
+          echo "Written eventcount.json:"
+          cat eventcount.json
 
       - name: Commit if changed
         shell: bash
         run: |
           if git diff --quiet; then
-            echo "No changes to commit."
+            echo "No changes to commit (eventcount.json unchanged)."
             exit 0
           fi
 
