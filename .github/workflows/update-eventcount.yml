@@ -2,7 +2,7 @@ name: Update EliteCC Event Count
 
 on:
   schedule:
-    - cron: "*/30 * * * *" # every 30 minutes (adjust if needed)
+    - cron: "*/30 * * * *"
   workflow_dispatch:
 
 permissions:
@@ -15,6 +15,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
 
       - name: Fetch events and update eventcount.json
         shell: bash
@@ -22,14 +24,7 @@ jobs:
           set -euo pipefail
 
           URL="https://api.truckersmp.com/v2/vtc/81143/events/attending"
-          echo "Fetching: $URL"
-
           RESP="$(curl -sS "$URL")"
-
-          echo "Response first 400 chars:"
-          echo "$RESP" | head -c 400
-          echo
-          echo "----"
 
           COUNT="$(
             echo "$RESP" | jq '
@@ -42,8 +37,6 @@ jobs:
             '
           )"
 
-          echo "Count computed: $COUNT"
-
           UPDATED_AT="$(date -u +"%Y-%m-%dT%H:%M:%SZ")"
 
           jq -n \
@@ -52,20 +45,24 @@ jobs:
             '{ eventsThisMonth: $n, updatedAt: $t, source: "events/attending" }' \
             > eventcount.json
 
-          echo "Written eventcount.json:"
+          echo "eventcount.json now:"
           cat eventcount.json
 
-      - name: Commit if changed
-        shell: bash
-        run: |
-          if git diff --quiet; then
-            echo "No changes to commit (eventcount.json unchanged)."
-            exit 0
+          if [ -f "eventcount.json" ]; then
+            echo "eventcount.json exists locally in workspace."
+          else
+            echo "eventcount.json missing in workspace!"
+            exit 1
           fi
 
+      - name: Commit and push
+        shell: bash
+        run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
           git add eventcount.json
-          git commit -m "Update Events This Month count"
+
+          # Always commit (even if contents identical but updatedAt differs)
+          git commit -m "Update Events This Month count" || echo "Nothing to commit"
           git push
