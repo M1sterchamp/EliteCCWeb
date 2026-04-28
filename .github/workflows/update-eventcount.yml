@@ -16,7 +16,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Fetch events and update eventcount.json (debug + robust parsing)
+      - name: Fetch events and update eventcount.json
         shell: bash
         run: |
           set -euo pipefail
@@ -26,21 +26,15 @@ jobs:
 
           RESP="$(curl -sS "$URL")"
 
-          echo "HTTP fetch complete."
-          echo "Response first 1500 chars:"
-          echo "----"
-          echo "$RESP" | head -c 1500
+          echo "Response first 400 chars:"
+          echo "$RESP" | head -c 400
           echo
           echo "----"
 
-          # Try multiple possible shapes:
-          # - direct array
-          # - { data: [...] }
-          # - { events: [...] }
-          # - { results: [...] }
           COUNT="$(
             echo "$RESP" | jq '
               if type=="array" then length
+              elif .response then (.response | length)
               elif .data then (.data | length)
               elif .events then (.events | length)
               elif .results then (.results | length)
@@ -48,7 +42,6 @@ jobs:
             '
           )"
 
-          # Optional: also print detected array length candidates if any exist
           echo "Count computed: $COUNT"
 
           UPDATED_AT="$(date -u +"%Y-%m-%dT%H:%M:%SZ")"
