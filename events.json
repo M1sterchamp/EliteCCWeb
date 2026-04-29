@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-28T11:41:21Z",
+  "updatedAt": "2026-04-29T03:12:55Z",
   "events": [
     {
       "id": 32069,
@@ -72,6 +72,48 @@
       "title": "Global Trucking's 5 Year Anniversary Convoy 2026",
       "start": "2026-05-05 18:00:00",
       "url": "/events/32099-global-trucking%27s5-year-anniversary-convoy2026"
+    },
+    {
+      "id": 32469,
+      "title": "TurkishLine  x  Arab Transport  May Convoy",
+      "start": "2026-05-31 18:00:00",
+      "url": "/events/32469-turkishline-x-arab-transport-may-convoy"
+    },
+    {
+      "id": 32318,
+      "title": "Polish Miles, Hungarian Smiles with Pean Logistics",
+      "start": "2026-05-30 18:00:00",
+      "url": "/events/32318-polish-miles,-hungarian-smiles-with-pean-logistics"
+    },
+    {
+      "id": 32057,
+      "title": "Ares Road VTC Opening Convoy",
+      "start": "2026-05-07 18:00:00",
+      "url": "/events/32057-ares-road-vtc-opening-convoy"
+    },
+    {
+      "id": 32182,
+      "title": "BIRTHDAY - FOUNDER VTC GTLEGION & FOUNDER LIMINAL LOG. EVOPLAN",
+      "start": "2026-05-08 18:00:00",
+      "url": "/events/32182-birthday--founder-vtc-gtlegion&-founder-liminal-log.-evoplan"
+    },
+    {
+      "id": 31924,
+      "title": "KA LOGISTICS MAY PUBLIC CONVOY | Unity on the Virtual Roads 🚛",
+      "start": "2026-05-11 18:00:00",
+      "url": "/events/31924-ka-logistics-may-public-convoy|-unity-on-the-virtual-roads%F0%9F%9A%9B"
+    },
+    {
+      "id": 32222,
+      "title": "BIRTHDAY - FOUNDER GTLEGION & FOUNDER LIMINAL LOG. EVOPLAN",
+      "start": "2026-05-24 18:00:00",
+      "url": "/events/32222-birthday--founder-gtlegion&-founder-liminal-log.-evoplan"
+    },
+    {
+      "id": 32275,
+      "title": "Wortex Group Opening Convoy",
+      "start": "2026-05-25 18:00:00",
+      "url": "/events/32275-wortex-group-opening-convoy"
     }
   ]
 }
