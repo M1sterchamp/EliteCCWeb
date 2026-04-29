@@ -1,13 +1,6 @@
 {
-  "updatedAt": "2026-04-29T16:52:07.220Z",
+  "updatedAt": "2026-04-29T16:56:09.114Z",
   "partners": [
-    {
-      "id": 1286,
-      "created_at": "2025-06-30T14:52:12.000000Z",
-      "name": null,
-      "sub_name": null,
-      "logo": null
-    },
     {
       "id": 1402,
       "created_at": "2025-07-24T13:50:45.000000Z",
