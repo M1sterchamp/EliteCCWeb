@@ -1,1 +1,124 @@
-
+{
+  "updatedAt": "2026-04-29T16:38:27.368Z",
+  "partners": [
+    {
+      "id": 1286,
+      "created_at": "2025-06-30T14:52:12.000000Z",
+      "name": null,
+      "sub_name": null,
+      "logo": null
+    },
+    {
+      "id": 1402,
+      "created_at": "2025-07-24T13:50:45.000000Z",
+      "name": "GTLegion",
+      "sub_name": "Никогда не сдавайся ни дюйма — нигде и никак!",
+      "logo": "58774.1776070480.png"
+    },
+    {
+      "id": 1410,
+      "created_at": "2025-07-26T14:02:23.000000Z",
+      "name": "MT Logistica",
+      "sub_name": "Sempre, ovunque",
+      "logo": "53543.1772055874.png"
+    },
+    {
+      "id": 1611,
+      "created_at": "2025-08-25T15:43:10.000000Z",
+      "name": "Vanguard Convoy Control",
+      "sub_name": "Navigating Your Succes!",
+      "logo": "82269.1755027556.png"
+    },
+    {
+      "id": 1786,
+      "created_at": "2025-09-22T13:16:38.000000Z",
+      "name": "NextGen Convoy Control",
+      "sub_name": "Powering Convoys with Innovation and Control.",
+      "logo": "76828.1735466884.png"
+    },
+    {
+      "id": 2023,
+      "created_at": "2025-10-27T18:29:36.000000Z",
+      "name": "Elite Convoys",
+      "sub_name": "Command the Roads with Elite Convoys",
+      "logo": "81143.1760545782.png"
+    },
+    {
+      "id": 2024,
+      "created_at": "2025-10-27T18:29:52.000000Z",
+      "name": "Elite Convoys",
+      "sub_name": "Command the Roads with Elite Convoys",
+      "logo": "81143.1760545782.png"
+    },
+    {
+      "id": 2025,
+      "created_at": "2025-10-27T18:32:46.000000Z",
+      "name": "Elite Convoys",
+      "sub_name": "Command the Roads with Elite Convoys",
+      "logo": "81143.1760545782.png"
+    },
+    {
+      "id": 2026,
+      "created_at": "2025-10-27T18:33:26.000000Z",
+      "name": "Elite Convoys",
+      "sub_name": "Command the Roads with Elite Convoys",
+      "logo": "81143.1760545782.png"
+    },
+    {
+      "id": 2155,
+      "created_at": "2025-11-17T15:15:50.000000Z",
+      "name": "Elite Convoys",
+      "sub_name": "Command the Roads with Elite Convoys",
+      "logo": "81143.1760545782.png"
+    },
+    {
+      "id": 2202,
+      "created_at": "2025-11-25T18:39:38.000000Z",
+      "name": "Veldoria Convoy Control",
+      "sub_name": "Leader in Convoy Control",
+      "logo": "73816.1723109845.png"
+    },
+    {
+      "id": 2285,
+      "created_at": "2025-12-09T01:09:07.000000Z",
+      "name": "Elite Convoys",
+      "sub_name": "Command the Roads with Elite Convoys",
+      "logo": "81143.1760545782.png"
+    },
+    {
+      "id": 2544,
+      "created_at": "2026-01-22T17:39:55.000000Z",
+      "name": "Sentora™ | Company",
+      "sub_name": "The Digital Route of Professionalism.",
+      "logo": "80304.1768845471.png"
+    },
+    {
+      "id": 2546,
+      "created_at": "2026-01-22T22:37:05.000000Z",
+      "name": "Nørthern Express",
+      "sub_name": "Delivering Excellence, Worldwide.",
+      "logo": "77025.1737671339.png"
+    },
+    {
+      "id": 3123,
+      "created_at": "2026-04-04T21:06:41.000000Z",
+      "name": "Elite Convoys",
+      "sub_name": "Command the Roads with Elite Convoys",
+      "logo": "81143.1760545782.png"
+    },
+    {
+      "id": 3145,
+      "created_at": "2026-04-07T16:21:01.000000Z",
+      "name": "The Real Ops Group",
+      "sub_name": "Turning vision into action",
+      "logo": "81146.1768498907.png"
+    },
+    {
+      "id": 3331,
+      "created_at": "2026-04-28T12:25:37.000000Z",
+      "name": "Elite Convoys",
+      "sub_name": "Command the Roads with Elite Convoys",
+      "logo": "81143.1760545782.png"
+    }
+  ]
+}
