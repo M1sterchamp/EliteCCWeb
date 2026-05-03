@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-03T05:09:52.004Z",
+  "updatedAt": "2026-05-03T17:09:52.009Z",
   "events": [
     {
       "id": 32069,
@@ -114,6 +114,12 @@
       "title": "Wortex Group Opening Convoy",
       "start": "2026-05-25 18:00:00",
       "url": "/events/32275-wortex-group-opening-convoy"
+    },
+    {
+      "id": 35488,
+      "title": "Lime's Logistics Monthly Convoy #8",
+      "start": "2026-08-30 17:00:00",
+      "url": "/events/35488-lime%27s-logistics-monthly-convoy#8"
     }
   ]
 }
