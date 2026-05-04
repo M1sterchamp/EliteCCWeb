@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-04T05:09:53.180Z",
+  "updatedAt": "2026-05-04T17:09:53.190Z",
   "events": [
     {
       "id": 32069,
@@ -120,6 +120,18 @@
       "title": "Lime's Logistics Monthly Convoy #8",
       "start": "2026-08-30 17:00:00",
       "url": "/events/35488-lime%27s-logistics-monthly-convoy#8"
+    },
+    {
+      "id": 35190,
+      "title": "Ponc Logistics “Soul of Anatolia” MC #38",
+      "start": "2026-10-05 18:00:00",
+      "url": "/events/35190-ponc-logistics%E2%80%9Csoul-of-anatolia%E2%80%9D-mc#38"
+    },
+    {
+      "id": 34468,
+      "title": "Ponc Logistics “Midnight Sun Run Monthly Convoy” MC #37",
+      "start": "2026-09-13 18:00:00",
+      "url": "/events/34468-ponc-logistics%E2%80%9Cmidnight-sun-run-monthly-convoy%E2%80%9D-mc#37"
     }
   ]
 }
