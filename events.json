@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-04T17:09:53.190Z",
+  "updatedAt": "2026-05-05T05:09:54.398Z",
   "events": [
     {
       "id": 32069,
@@ -132,6 +132,12 @@
       "title": "Ponc Logistics “Midnight Sun Run Monthly Convoy” MC #37",
       "start": "2026-09-13 18:00:00",
       "url": "/events/34468-ponc-logistics%E2%80%9Cmidnight-sun-run-monthly-convoy%E2%80%9D-mc#37"
+    },
+    {
+      "id": 35513,
+      "title": "Nørthern Express #17 | August Monthly",
+      "start": "2026-08-02 18:00:00",
+      "url": "/events/35513-n%C3%B8rthern-express#17|-august-monthly"
     }
   ]
 }
