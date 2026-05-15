@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-14T12:27:32.445Z",
+  "updatedAt": "2026-05-15T00:27:37.358Z",
   "events": [
     {
       "id": 32069,
@@ -102,6 +102,12 @@
       "title": "Nørthern Express #17 | August Monthly",
       "start": "2026-08-02 18:00:00",
       "url": "/events/35513-n%C3%B8rthern-express#17|-august-monthly"
+    },
+    {
+      "id": 35707,
+      "title": "VTC GTLEGION 4th Anniversary",
+      "start": "2026-11-14 18:00:00",
+      "url": "/events/35707-vtc-gtlegion4th-anniversary"
     }
   ]
 }
