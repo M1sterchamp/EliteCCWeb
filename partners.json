@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-15T12:27:38.759Z",
+  "updatedAt": "2026-05-16T00:27:38.760Z",
   "partners": [
     {
       "id": 58774,
@@ -119,6 +119,20 @@
       "name": "Lucky Control™",
       "sub_name": "JoinLucky Control to Experience a Better Life",
       "logo": "88096.1774665627.jpg"
+    },
+    {
+      "id": 80348,
+      "created_at": "2026-05-14T12:32:50.000000Z",
+      "name": "ORGIN EVENT™",
+      "sub_name": "● Gear Up for the Ultimate Operation !",
+      "logo": "80348.1775300341.png"
+    },
+    {
+      "id": 84295,
+      "created_at": "2026-05-15T15:57:14.000000Z",
+      "name": "Marking Event",
+      "sub_name": "We are an Event Supervision Group",
+      "logo": "84295.1762496682.png"
     }
   ]
 }
