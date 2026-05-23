@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-22T12:27:46.643Z",
+  "updatedAt": "2026-05-23T00:27:46.646Z",
   "events": [
     {
       "id": 32539,
@@ -93,9 +93,9 @@
     },
     {
       "id": 35513,
-      "title": "Nørthern Express #17 | August Monthly",
+      "title": "Nørthern Express #17 | August Convoy",
       "start": "2026-08-02 18:00:00",
-      "url": "/events/35513-n%C3%B8rthern-express#17|-august-monthly"
+      "url": "/events/35513-n%C3%B8rthern-express#17|-august-convoy"
     },
     {
       "id": 35707,
@@ -108,6 +108,12 @@
       "title": "Nørthern Express #16 | July Convoy",
       "start": "2026-07-19 18:00:00",
       "url": "/events/34951-n%C3%B8rthern-express#16|-july-convoy"
+    },
+    {
+      "id": 34122,
+      "title": "Nørthern Express #15 | June Convoy",
+      "start": "2026-06-07 18:00:00",
+      "url": "/events/34122-n%C3%B8rthern-express#15|-june-convoy"
     }
   ]
 }
