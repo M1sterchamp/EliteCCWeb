@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-25T12:27:52.447Z",
+  "updatedAt": "2026-05-26T00:27:52.448Z",
   "events": [
     {
       "id": 32539,
@@ -62,12 +62,6 @@
       "url": "/events/32318-polish-miles,-hungarian-smiles-with-pean-logistics"
     },
     {
-      "id": 32275,
-      "title": "Wortex Group Opening Convoy",
-      "start": "2026-05-25 18:00:00",
-      "url": "/events/32275-wortex-group-opening-convoy"
-    },
-    {
       "id": 35488,
       "title": "Lime's Logistics Monthly Convoy #8",
       "start": "2026-08-30 17:00:00",
@@ -108,6 +102,12 @@
       "title": "Nørthern Express #15 | June Convoy",
       "start": "2026-06-07 18:00:00",
       "url": "/events/34122-n%C3%B8rthern-express#15|-june-convoy"
+    },
+    {
+      "id": 35894,
+      "title": "ANATOLIA LOGISTICS MONTHLY CONVOY #30",
+      "start": "2026-11-24 18:00:00",
+      "url": "/events/35894-anatolia-logistics-monthly-convoy#30"
     }
   ]
 }
