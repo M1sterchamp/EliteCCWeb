@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-07T04:03:53.105Z",
+  "updatedAt": "2026-06-07T16:03:56.623Z",
   "events": [
     {
       "id": 33082,
@@ -108,6 +108,12 @@
       "title": "Sentora™ Company | Tour of Spain",
       "start": "2026-12-03 19:00:00",
       "url": "/events/35672-sentora%E2%84%A2-company|-tour-of-spain"
+    },
+    {
+      "id": 36113,
+      "title": "China XingHuo Team 6th Anniversary Event",
+      "start": "2026-12-05 12:30:00",
+      "url": "/events/36113-china-xinghuo-team6th-anniversary-event"
     }
   ]
 }
