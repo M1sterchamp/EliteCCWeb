@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-15T04:04:06.237Z",
+  "updatedAt": "2026-06-15T16:04:06.250Z",
   "events": [
     {
       "id": 33418,
@@ -96,6 +96,30 @@
       "title": "China XingHuo Team 6th Anniversary Event",
       "start": "2026-12-05 12:30:00",
       "url": "/events/36113-china-xinghuo-team6th-anniversary-event"
+    },
+    {
+      "id": 33603,
+      "title": "Anonymous Truckers ITA 6th Anniversary",
+      "start": "2026-06-15 19:30:00",
+      "url": "/events/33603-anonymous-truckers-ita6th-anniversary"
+    },
+    {
+      "id": 32665,
+      "title": "KA LOGISTICS JUNE PUBLIC CONVOY | LOVE FAR AT SIGHT",
+      "start": "2026-06-18 19:00:00",
+      "url": "/events/32665-ka-logistics-june-public-convoy|-love-far-at-sight"
+    },
+    {
+      "id": 32812,
+      "title": "Transports Horizon June Public Event N°1",
+      "start": "2026-06-27 16:30:00",
+      "url": "/events/32812-transports-horizon-june-public-event-n%C2%B01"
+    },
+    {
+      "id": 33197,
+      "title": "TurkishLine  June   Convoy",
+      "start": "2026-06-29 18:00:00",
+      "url": "/events/33197-turkishline-june-convoy"
     }
   ]
 }
