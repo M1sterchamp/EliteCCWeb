@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-14T16:04:06.221Z",
+  "updatedAt": "2026-06-15T04:04:06.237Z",
   "partners": [
     {
       "id": 58774,
@@ -133,6 +133,13 @@
       "name": "Marking Event",
       "sub_name": "We are an Event Supervision Group",
       "logo": "84295.1762496682.png"
+    },
+    {
+      "id": 76814,
+      "created_at": "2026-06-14T18:10:23.000000Z",
+      "name": "Lime's Logistics",
+      "sub_name": "Our Hauls Are Sweet, but Our Style’s Got Zing",
+      "logo": "76814.1776037631.png"
     }
   ]
 }
