@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-19T04:04:10.934Z",
+  "updatedAt": "2026-06-19T16:04:10.934Z",
   "events": [
     {
       "id": 33418,
@@ -354,6 +354,12 @@
       "title": "Third Convoy Public | FIC",
       "start": "2026-11-27 19:00:00",
       "url": "/events/35968-third-convoy-public|-fic"
+    },
+    {
+      "id": 36342,
+      "title": "Christmas Grand Convoy | GTLegion VTC",
+      "start": "2026-12-18 18:00:00",
+      "url": "/events/36342-christmas-grand-convoy|-gtlegion-vtc"
     }
   ]
 }
