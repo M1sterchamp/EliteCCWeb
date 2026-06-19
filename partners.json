@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-19T04:04:10.934Z",
+  "updatedAt": "2026-06-19T16:04:10.934Z",
   "partners": [
     {
       "id": 58774,
@@ -147,6 +147,13 @@
       "name": "Central Convoy Control",
       "sub_name": "Precision on Every Route",
       "logo": "89257.1780953623.png"
+    },
+    {
+      "id": 87827,
+      "created_at": "2026-06-18T06:18:06.000000Z",
+      "name": "Orvion Convoy Control",
+      "sub_name": "Precision in Every Convoy",
+      "logo": "87827.1773667744.png"
     }
   ]
 }
