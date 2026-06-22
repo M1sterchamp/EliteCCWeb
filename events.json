@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-22T10:34:10.508Z",
+  "updatedAt": "2026-06-22T22:34:10.512Z",
   "events": [
     {
       "id": 33418,
@@ -360,6 +360,12 @@
       "title": "Christmas Grand Convoy | GTLegion VTC",
       "start": "2026-12-18 18:00:00",
       "url": "/events/36342-christmas-grand-convoy|-gtlegion-vtc"
+    },
+    {
+      "id": 35761,
+      "title": "Veldoria CC | Autumn Event",
+      "start": "2026-11-16 18:00:00",
+      "url": "/events/35761-veldoria-cc|-autumn-event"
     }
   ]
 }
