@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-24T10:34:13.477Z",
+  "updatedAt": "2026-06-24T22:34:13.489Z",
   "partners": [
     {
       "id": 58774,
@@ -154,6 +154,13 @@
       "name": "Orvion Convoy Control",
       "sub_name": null,
       "logo": "https://static.truckersmp.com/images/vtc/logo/87827.1773667744.png"
+    },
+    {
+      "id": 87113,
+      "created_at": "2026-06-24T21:07:04.000000Z",
+      "name": "Güllüm Express ™",
+      "sub_name": null,
+      "logo": "https://static.truckersmp.com/images/vtc/logo/87113.1781458789.jpg"
     }
   ]
 }
