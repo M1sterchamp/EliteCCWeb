@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-24T10:34:13.477Z",
+  "updatedAt": "2026-06-24T22:34:13.489Z",
   "events": [
     {
       "id": 33418,
@@ -366,6 +366,12 @@
       "title": "Veldoria CC | Autumn Event",
       "start": "2026-11-16 18:00:00",
       "url": "/events/35761-veldoria-cc|-autumn-event"
+    },
+    {
+      "id": 35944,
+      "title": "Royal Highway Opening Convoy",
+      "start": "2026-12-06 18:00:00",
+      "url": "/events/35944-royal-highway-opening-convoy"
     }
   ]
 }
