@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-26T10:34:16.437Z",
+  "updatedAt": "2026-06-26T22:34:16.439Z",
   "events": [
     {
       "id": 33418,
@@ -372,6 +372,12 @@
       "title": "Royal Highway Opening Convoy",
       "start": "2026-12-06 18:00:00",
       "url": "/events/35944-royal-highway-opening-convoy"
+    },
+    {
+      "id": 36419,
+      "title": "Himalayan Logistics Weekly Convoy",
+      "start": "2026-07-01 17:00:00",
+      "url": "/events/36419-himalayan-logistics-weekly-convoy"
     }
   ]
 }
