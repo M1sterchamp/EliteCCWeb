@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-01T10:34:23.552Z",
+  "updatedAt": "2026-07-01T22:34:23.561Z",
   "partners": [
     {
       "id": 58774,
@@ -81,7 +81,7 @@
     {
       "id": 80304,
       "created_at": "2026-01-22T17:39:55.000000Z",
-      "name": "Sentora™ | Company",
+      "name": "Sentora™ | Company #CLOSED",
       "sub_name": null,
       "logo": "https://static.truckersmp.com/images/vtc/logo/80304.1768845471.png"
     },
@@ -158,9 +158,9 @@
     {
       "id": 87113,
       "created_at": "2026-06-24T21:07:04.000000Z",
-      "name": "Güllüm Express ™",
+      "name": "Noxen Group ™",
       "sub_name": null,
-      "logo": "https://static.truckersmp.com/images/vtc/logo/87113.1781458789.jpg"
+      "logo": "https://static.truckersmp.com/images/vtc/logo/87113.1782906449.jpg"
     }
   ]
 }
