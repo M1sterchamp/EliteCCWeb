@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-05T10:34:29.138Z",
+  "updatedAt": "2026-07-05T22:34:29.138Z",
   "events": [
     {
       "id": 33418,
@@ -86,12 +86,6 @@
       "url": "/events/36113-china-xinghuo-team6th-anniversary-event"
     },
     {
-      "id": 33269,
-      "title": "Novi Trucking July Convoy - Roads Under the Sun",
-      "start": "2026-07-05 18:00:00",
-      "url": "/events/33269-novi-trucking-july-convoy--roads-under-the-sun"
-    },
-    {
       "id": 34515,
       "title": "DIFM 2 YEAR ANNIVERSARY",
       "start": "2026-07-08 17:30:00",
@@ -124,7 +118,7 @@
     {
       "id": 33310,
       "title": "Mega Convoy With GTLegion VTC",
-      "start": "2026-07-17 18:00:00",
+      "start": "2026-07-20 18:00:00",
       "url": "/events/33310-mega-convoy-with-gtlegion-vtc"
     },
     {
@@ -366,6 +360,42 @@
       "title": "Veldoria CC | Halloween Convoy",
       "start": "2026-10-30 19:00:00",
       "url": "/events/36447-veldoria-cc|-halloween-convoy"
+    },
+    {
+      "id": 36599,
+      "title": "WonderfulKillers | September Convoy",
+      "start": "2026-09-29 18:00:00",
+      "url": "/events/36599-wonderfulkillers|-september-convoy"
+    },
+    {
+      "id": 36600,
+      "title": "WonderfulKillers | October Convoy",
+      "start": "2026-10-27 18:00:00",
+      "url": "/events/36600-wonderfulkillers|-october-convoy"
+    },
+    {
+      "id": 36601,
+      "title": "WonderfulKillers | November Convoy",
+      "start": "2026-11-26 18:00:00",
+      "url": "/events/36601-wonderfulkillers|-november-convoy"
+    },
+    {
+      "id": 36477,
+      "title": "Super Event | Asian Real Operations V3",
+      "start": "2026-11-28 12:30:00",
+      "url": "/events/36477-super-event|-asian-real-operations-v3"
+    },
+    {
+      "id": 36541,
+      "title": "Nørthern Express 2 Year Anniversary",
+      "start": "2027-01-02 18:00:00",
+      "url": "/events/36541-n%C3%B8rthern-express2-year-anniversary"
+    },
+    {
+      "id": 36568,
+      "title": "Balkan Bridges Convoy With Pean Logistics",
+      "start": "2027-01-03 19:00:00",
+      "url": "/events/36568-balkan-bridges-convoy-with-pean-logistics"
     }
   ]
 }
