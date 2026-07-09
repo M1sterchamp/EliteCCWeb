@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-08T13:01:03.146Z",
+  "updatedAt": "2026-07-09T01:01:08.359Z",
   "partners": [
     {
       "id": 58774,
@@ -175,6 +175,13 @@
       "name": "RePublic OF WonderfulKillers",
       "sub_name": null,
       "logo": "https://static.truckersmp.com/images/vtc/logo/53624.1774280043.png"
+    },
+    {
+      "id": 62215,
+      "created_at": "2026-07-08T09:21:26.000000Z",
+      "name": "KA LOGISTICS",
+      "sub_name": null,
+      "logo": "https://static.truckersmp.com/images/vtc/logo/62215.1761351982.png"
     }
   ]
 }
