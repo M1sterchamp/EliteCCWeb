@@ -1,186 +1,186 @@
 {
-  "updatedAt": "2026-07-14T19:15:25.718Z",
+  "updatedAt": "2026-07-14T20:29:24.090Z",
   "partners": [
     {
       "id": 58774,
       "created_at": "2025-07-24T13:50:45.000000Z",
       "name": "GTLegion",
-      "sub_name": null,
+      "sub_name": "Никогда не сдавайся ни дюйма — нигде и никак!",
       "logo": "https://static.truckersmp.com/images/vtc/logo/58774.1776070480.png"
     },
     {
       "id": 53543,
       "created_at": "2025-07-26T14:02:23.000000Z",
       "name": "MT Logistica",
-      "sub_name": null,
+      "sub_name": "Sempre, ovunque",
       "logo": "https://static.truckersmp.com/images/vtc/logo/53543.1772055874.png"
     },
     {
       "id": 82269,
       "created_at": "2025-08-25T15:43:10.000000Z",
       "name": "Vanguard Convoy Control",
-      "sub_name": null,
+      "sub_name": "Navigating Your Succes!",
       "logo": "https://static.truckersmp.com/images/vtc/logo/82269.1755027556.png"
     },
     {
       "id": 76828,
       "created_at": "2025-09-22T13:16:38.000000Z",
       "name": "NextGen Convoy Control",
-      "sub_name": null,
+      "sub_name": "Powering Convoys with Innovation and Control.",
       "logo": "https://static.truckersmp.com/images/vtc/logo/76828.1735466884.png"
     },
     {
       "id": 55595,
       "created_at": "2025-10-27T18:29:36.000000Z",
       "name": "Ponc Logistics",
-      "sub_name": null,
+      "sub_name": "We are the Road Dragon !",
       "logo": "https://static.truckersmp.com/images/vtc/logo/55595.1780348858.png"
     },
     {
       "id": 57920,
       "created_at": "2025-10-27T18:29:52.000000Z",
       "name": "TurkishLine VTC",
-      "sub_name": null,
+      "sub_name": "Give us way, we're coming!",
       "logo": "https://static.truckersmp.com/images/vtc/logo/57920.1774298881.png"
     },
     {
       "id": 81726,
       "created_at": "2025-10-27T18:32:46.000000Z",
       "name": "Saffron Line Control",
-      "sub_name": null,
+      "sub_name": "Your Convoy , Our Command",
       "logo": "https://static.truckersmp.com/images/vtc/logo/81726.1753268530.jpg"
     },
     {
       "id": 64631,
       "created_at": "2025-10-27T18:33:26.000000Z",
       "name": "Pean Logistics",
-      "sub_name": null,
+      "sub_name": "Trucking with a smile, one mile at a time",
       "logo": "https://static.truckersmp.com/images/vtc/logo/64631.1735910236.png"
     },
     {
       "id": 55487,
       "created_at": "2025-11-17T15:15:50.000000Z",
       "name": "Anatolia Logistics",
-      "sub_name": null,
+      "sub_name": "Your Modern Logistics Partner",
       "logo": "https://static.truckersmp.com/images/vtc/logo/55487.1747415798.png"
     },
     {
       "id": 73816,
       "created_at": "2025-11-25T18:39:38.000000Z",
       "name": "Veldoria Convoy Control",
-      "sub_name": null,
+      "sub_name": "Leader in Convoy Control",
       "logo": "https://static.truckersmp.com/images/vtc/logo/73816.1723109845.png"
     },
     {
       "id": 71412,
       "created_at": "2025-12-09T01:09:07.000000Z",
       "name": "Need Convoy Control",
-      "sub_name": null,
+      "sub_name": "You need it, we beat it",
       "logo": "https://static.truckersmp.com/images/vtc/logo/71412.1713655362.png"
     },
     {
       "id": 80304,
       "created_at": "2026-01-22T17:39:55.000000Z",
       "name": "Sentora™ | Company #CLOSED",
-      "sub_name": null,
+      "sub_name": "The Digital Route of Professionalism.",
       "logo": "https://static.truckersmp.com/images/vtc/logo/80304.1768845471.png"
     },
     {
       "id": 77025,
       "created_at": "2026-01-22T22:37:05.000000Z",
       "name": "Nørthern Express",
-      "sub_name": null,
+      "sub_name": "Delivering Excellence, Worldwide.",
       "logo": "https://static.truckersmp.com/images/vtc/logo/77025.1737671339.png"
     },
     {
       "id": 88278,
       "created_at": "2026-04-04T21:06:41.000000Z",
       "name": "Premium Events",
-      "sub_name": null,
+      "sub_name": "Where we bring the fun to you!",
       "logo": "https://static.truckersmp.com/images/vtc/logo/88278.1775168262.png"
     },
     {
       "id": 81146,
       "created_at": "2026-04-07T16:21:01.000000Z",
       "name": "The Real Ops Group",
-      "sub_name": null,
+      "sub_name": "Turning vision into action",
       "logo": "https://static.truckersmp.com/images/vtc/logo/81146.1768498907.png"
     },
     {
       "id": 87788,
       "created_at": "2026-04-28T12:25:37.000000Z",
       "name": "Super CC",
-      "sub_name": null,
+      "sub_name": "We are always your best experience",
       "logo": "https://static.truckersmp.com/images/vtc/logo/87788.1773572193.png"
     },
     {
       "id": 88096,
       "created_at": "2026-05-14T12:16:13.000000Z",
       "name": "Lucky Control™",
-      "sub_name": null,
+      "sub_name": "Join Lucky Control to Experience a Better Life",
       "logo": "https://static.truckersmp.com/images/vtc/logo/88096.1779601482.png"
     },
     {
       "id": 80348,
       "created_at": "2026-05-14T12:32:50.000000Z",
       "name": "ORGIN EVENT™",
-      "sub_name": null,
+      "sub_name": "● Gear Up for the Ultimate Operation !",
       "logo": "https://static.truckersmp.com/images/vtc/logo/80348.1775300341.png"
     },
     {
       "id": 84295,
       "created_at": "2026-05-15T15:57:14.000000Z",
       "name": "Marking Event",
-      "sub_name": null,
+      "sub_name": "We are an Event Supervision Group",
       "logo": "https://static.truckersmp.com/images/vtc/logo/84295.1762496682.png"
     },
     {
       "id": 76814,
       "created_at": "2026-06-14T18:10:23.000000Z",
       "name": "Lime's Logistics",
-      "sub_name": null,
+      "sub_name": "Our Hauls Are Sweet, but Our Style’s Got Zing",
       "logo": "https://static.truckersmp.com/images/vtc/logo/76814.1776037631.png"
     },
     {
       "id": 89257,
       "created_at": "2026-06-14T19:35:53.000000Z",
       "name": "Central Convoy Control",
-      "sub_name": null,
+      "sub_name": "Precision on Every Route",
       "logo": "https://static.truckersmp.com/images/vtc/logo/89257.1780953623.png"
     },
     {
       "id": 87827,
       "created_at": "2026-06-18T06:18:06.000000Z",
       "name": "Orvion Convoy Control",
-      "sub_name": null,
+      "sub_name": "Precision in Every Convoy",
       "logo": "https://static.truckersmp.com/images/vtc/logo/87827.1773667744.png"
     },
     {
       "id": 87113,
       "created_at": "2026-06-24T21:07:04.000000Z",
       "name": "Noxen Group ™",
-      "sub_name": null,
+      "sub_name": "The Path is Ours, the Power is Ours!",
       "logo": "https://static.truckersmp.com/images/vtc/logo/87113.1782906449.jpg"
     },
     {
       "id": 83974,
       "created_at": "2026-07-06T16:20:36.000000Z",
       "name": "Moonlight Express",
-      "sub_name": null,
+      "sub_name": "✨ Delivering Dreams, One Load At A Time! ✨",
       "logo": "https://static.truckersmp.com/images/vtc/logo/83974.1771007363.png"
     },
     {
       "id": 53624,
       "created_at": "2026-07-06T21:18:41.000000Z",
       "name": "RePublic OF WonderfulKillers",
-      "sub_name": null,
+      "sub_name": "Always the best of friends..",
       "logo": "https://static.truckersmp.com/images/vtc/logo/53624.1774280043.png"
     },
     {
       "id": 62215,
       "created_at": "2026-07-08T09:21:26.000000Z",
       "name": "KA LOGISTICS",
-      "sub_name": null,
+      "sub_name": "Tuko! Pamoja !",
       "logo": "https://static.truckersmp.com/images/vtc/logo/62215.1761351982.png"
     }
   ]
