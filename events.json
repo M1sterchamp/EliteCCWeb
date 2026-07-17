@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-17T11:01:04.166Z",
+  "updatedAt": "2026-07-17T23:01:04.169Z",
   "events": [
     {
       "id": 33418,
@@ -360,6 +360,12 @@
       "title": "Balkan Bridges Convoy With Pean Logistics",
       "start": "2027-01-03 19:00:00",
       "url": "/events/36568-balkan-bridges-convoy-with-pean-logistics"
+    },
+    {
+      "id": 36612,
+      "title": "Only Group Opening Convoy",
+      "start": "2027-01-05 18:00:00",
+      "url": "/events/36612-only-group-opening-convoy"
     }
   ]
 }
