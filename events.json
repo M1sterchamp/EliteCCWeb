@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-18T11:01:05.643Z",
+  "updatedAt": "2026-07-18T23:01:05.650Z",
   "events": [
     {
       "id": 33418,
@@ -366,6 +366,36 @@
       "title": "Only Group Opening Convoy",
       "start": "2027-01-05 18:00:00",
       "url": "/events/36612-only-group-opening-convoy"
+    },
+    {
+      "id": 36699,
+      "title": "NicqsiZAccent Birthday Convoy",
+      "start": "2026-07-28 18:00:00",
+      "url": "/events/36699-nicqsizaccent-birthday-convoy"
+    },
+    {
+      "id": 36788,
+      "title": "ANATOLİA LOGİSTİCS PUBLİC CONVOY #3",
+      "start": "2026-08-01 18:00:00",
+      "url": "/events/36788-anatoli%CC%87a-logi%CC%87sti%CC%87cs-publi%CC%87c-convoy#3"
+    },
+    {
+      "id": 36816,
+      "title": "TruckersHub 4th Anniversary Convoy",
+      "start": "2027-01-16 17:30:00",
+      "url": "/events/36816-truckershub4th-anniversary-convoy"
+    },
+    {
+      "id": 36682,
+      "title": "New Year Kick-Off Convoy | GTLegion VTC",
+      "start": "2027-01-10 18:00:00",
+      "url": "/events/36682-new-year-kick-off-convoy|-gtlegion-vtc"
+    },
+    {
+      "id": 36700,
+      "title": "🎉 Lime's Logistics 2nd Anniversary 🎉",
+      "start": "2027-01-08 18:00:00",
+      "url": "/events/36700-%F0%9F%8E%89-lime%27s-logistics2nd-anniversary%F0%9F%8E%89"
     }
   ]
 }
