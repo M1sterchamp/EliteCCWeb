@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-28T11:01:19.080Z",
+  "updatedAt": "2026-07-28T23:01:19.103Z",
   "events": [
     {
       "id": 34855,
@@ -332,12 +332,6 @@
       "url": "/events/36612-only-group-opening-convoy"
     },
     {
-      "id": 36699,
-      "title": "NicqsiZAccent Birthday Convoy",
-      "start": "2026-07-28 18:00:00",
-      "url": "/events/36699-nicqsizaccent-birthday-convoy"
-    },
-    {
       "id": 36788,
       "title": "ANATOLIA LOGISTICS PUBLIC CONVOY #3",
       "start": "2026-08-01 18:00:00",
@@ -360,6 +354,12 @@
       "title": "🎉 Lime's Logistics 2nd Anniversary 🎉",
       "start": "2027-01-08 18:00:00",
       "url": "/events/36700-%F0%9F%8E%89-lime%27s-logistics2nd-anniversary%F0%9F%8E%89"
+    },
+    {
+      "id": 36658,
+      "title": "Royal Highway Opening Convoy",
+      "start": "2026-12-06 18:00:00",
+      "url": "/events/36658-royal-highway-opening-convoy"
     }
   ]
 }
