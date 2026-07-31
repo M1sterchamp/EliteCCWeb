@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-31T11:01:23.328Z",
+  "updatedAt": "2026-07-31T23:01:23.340Z",
   "events": [
     {
       "id": 34855,
@@ -266,12 +266,6 @@
       "url": "/events/36342-christmas-grand-convoy|-gtlegion-vtc"
     },
     {
-      "id": 35761,
-      "title": "Veldoria CC | Autumn Event",
-      "start": "2026-11-16 18:00:00",
-      "url": "/events/35761-veldoria-cc|-autumn-event"
-    },
-    {
       "id": 33929,
       "title": "8yrs on the road with BVAR Trucking",
       "start": "2026-08-22 18:00:00",
@@ -282,12 +276,6 @@
       "title": "NovaLines September Convoy",
       "start": "2026-09-17 18:00:00",
       "url": "/events/34037-novalines-september-convoy"
-    },
-    {
-      "id": 36447,
-      "title": "Veldoria CC | Halloween Convoy",
-      "start": "2026-10-30 19:00:00",
-      "url": "/events/36447-veldoria-cc|-halloween-convoy"
     },
     {
       "id": 36599,
