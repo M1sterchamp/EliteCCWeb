@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-09T11:01:35.657Z",
+  "updatedAt": "2026-08-09T23:01:35.673Z",
   "events": [
     {
       "id": 34855,
@@ -60,12 +60,6 @@
       "title": "China XingHuo Team 6th Anniversary Event",
       "start": "2026-12-05 12:30:00",
       "url": "/events/36113-china-xinghuo-team6th-anniversary-event"
-    },
-    {
-      "id": 33759,
-      "title": "ETS2MCG 10th Anniversary Convoy",
-      "start": "2026-08-09 13:00:00",
-      "url": "/events/33759-ets2mcg10th-anniversary-convoy"
     },
     {
       "id": 33912,
@@ -306,6 +300,84 @@
       "title": "Royal Highway Opening Convoy",
       "start": "2026-12-06 18:00:00",
       "url": "/events/36658-royal-highway-opening-convoy"
+    },
+    {
+      "id": 37171,
+      "title": "Black Sea Bound With Pean Logistics",
+      "start": "2027-02-06 19:00:00",
+      "url": "/events/37171-black-sea-bound-with-pean-logistics"
+    },
+    {
+      "id": 37136,
+      "title": "TurkishLine x The Original  February  Convoy",
+      "start": "2027-02-01 18:00:00",
+      "url": "/events/37136-turkishline-x-the-original-february-convoy"
+    },
+    {
+      "id": 36528,
+      "title": "3rd Anniversary - Black Pearl Trucking Logistics",
+      "start": "2027-01-30 13:30:00",
+      "url": "/events/36528-3rd-anniversary--black-pearl-trucking-logistics"
+    },
+    {
+      "id": 36992,
+      "title": "ANATOLIA LOGISTICS MONTHLY CONVOY #32",
+      "start": "2027-01-27 18:00:00",
+      "url": "/events/36992-anatolia-logistics-monthly-convoy#32"
+    },
+    {
+      "id": 36902,
+      "title": "78th Republic Day of India",
+      "start": "2027-01-26 16:00:00",
+      "url": "/events/36902-78th-republic-day-of-india"
+    },
+    {
+      "id": 37064,
+      "title": "TurkishLine January Convoy",
+      "start": "2027-01-13 18:00:00",
+      "url": "/events/37064-turkishline-january-convoy"
+    },
+    {
+      "id": 36917,
+      "title": "Empire Group® | Mid-Year Convoy",
+      "start": "2027-01-12 18:00:00",
+      "url": "/events/36917-empire-group%C2%AE|-mid-year-convoy"
+    },
+    {
+      "id": 36851,
+      "title": "ONLY GROUP MONTHY CONVOY #1",
+      "start": "2027-01-15 18:00:00",
+      "url": "/events/36851-only-group-monthy-convoy#1"
+    },
+    {
+      "id": 36349,
+      "title": "Kerala RoadRunners Arizona Special Operations",
+      "start": "2026-12-14 15:00:00",
+      "url": "/events/36349-kerala-roadrunners-arizona-special-operations"
+    },
+    {
+      "id": 36336,
+      "title": "ANATOLIA LOGISTICS MONTHLY CONVOY #31",
+      "start": "2026-12-17 18:00:00",
+      "url": "/events/36336-anatolia-logistics-monthly-convoy#31"
+    },
+    {
+      "id": 36826,
+      "title": "TurkishLine December  Convoy",
+      "start": "2026-12-16 18:00:00",
+      "url": "/events/36826-turkishline-december-convoy"
+    },
+    {
+      "id": 37070,
+      "title": "MT Logistica Monthly Convoy December 2026",
+      "start": "2026-12-11 20:30:00",
+      "url": "/events/37070-mt-logistica-monthly-convoy-december2026"
+    },
+    {
+      "id": 35422,
+      "title": "MT Logistica Monthly Convoy November 2026",
+      "start": "2026-11-13 20:30:00",
+      "url": "/events/35422-mt-logistica-monthly-convoy-november2026"
     }
   ]
 }
