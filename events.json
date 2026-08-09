@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-08T23:01:34.350Z",
+  "updatedAt": "2026-08-09T11:01:35.657Z",
   "events": [
     {
       "id": 34855,
@@ -122,12 +122,6 @@
       "url": "/events/33948-ka-logistics-august-public-convoy|-honouring-elite-convoys"
     },
     {
-      "id": 35867,
-      "title": "Nørthern Express #18 | September Convoy",
-      "start": "2026-09-05 18:00:00",
-      "url": "/events/35867-n%C3%B8rthern-express#18|-september-convoy"
-    },
-    {
       "id": 34397,
       "title": "Portside Legends Edition",
       "start": "2026-09-08 18:00:00",
@@ -198,12 +192,6 @@
       "title": "DIFM october Convoy",
       "start": "2026-10-13 17:30:00",
       "url": "/events/35288-difm-october-convoy"
-    },
-    {
-      "id": 35868,
-      "title": "Nørthern Express #19 | October Convoy",
-      "start": "2026-10-25 18:00:00",
-      "url": "/events/35868-n%C3%B8rthern-express#19|-october-convoy"
     },
     {
       "id": 34873,
@@ -282,12 +270,6 @@
       "title": "Super Event | Asia Real Operations V3",
       "start": "2026-11-28 12:30:00",
       "url": "/events/36477-super-event|-asia-real-operations-v3"
-    },
-    {
-      "id": 36541,
-      "title": "Nørthern Express 2 Year Anniversary",
-      "start": "2027-01-02 18:00:00",
-      "url": "/events/36541-n%C3%B8rthern-express2-year-anniversary"
     },
     {
       "id": 36568,
