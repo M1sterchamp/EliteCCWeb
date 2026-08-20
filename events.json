@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-11T11:01:38.349Z",
+  "updatedAt": "2026-08-20T13:31:54.650Z",
   "events": [
     {
       "id": 34855,
@@ -62,30 +62,6 @@
       "url": "/events/36113-china-xinghuo-team6th-anniversary-event"
     },
     {
-      "id": 33845,
-      "title": "THE BIG AUGUST CONVOY VTC GTLEGION",
-      "start": "2026-08-12 18:00:00",
-      "url": "/events/33845-the-big-august-convoy-vtc-gtlegion"
-    },
-    {
-      "id": 33878,
-      "title": "2nd Year Anniversary - TAMIL PASANGA",
-      "start": "2026-08-16 16:30:00",
-      "url": "/events/33878-2nd-year-anniversary--tamil-pasanga"
-    },
-    {
-      "id": 34417,
-      "title": "Ponc Logistics -  Northern Lights Run Monthly Convoy #36",
-      "start": "2026-08-17 18:00:00",
-      "url": "/events/34417-ponc-logistics--northern-lights-run-monthly-convoy#36"
-    },
-    {
-      "id": 35127,
-      "title": "Arctic | 1 Year Anniversary",
-      "start": "2026-08-18 18:00:00",
-      "url": "/events/35127-arctic|1-year-anniversary"
-    },
-    {
       "id": 32968,
       "title": "🎉Zacky Wacky's Birthday Bash!🎉",
       "start": "2026-08-21 18:00:00",
@@ -138,12 +114,6 @@
       "title": "A scenic drive up north with Pean Logistics",
       "start": "2026-09-18 18:00:00",
       "url": "/events/34613-a-scenic-drive-up-north-with-pean-logistics"
-    },
-    {
-      "id": 26102,
-      "title": "Whispering Leaves Convoy with INDIAN GROUP",
-      "start": "2026-09-25 14:00:00",
-      "url": "/events/26102-whispering-leaves-convoy-with-indian-group"
     },
     {
       "id": 34355,
@@ -202,7 +172,7 @@
     {
       "id": 35587,
       "title": "Noxen Group Autumn Convoy",
-      "start": "2026-11-04 15:00:00",
+      "start": "2026-11-04 18:00:00",
       "url": "/events/35587-noxen-group-autumn-convoy"
     },
     {
@@ -213,7 +183,7 @@
     },
     {
       "id": 35968,
-      "title": "Third Convoy Public | FIC",
+      "title": "THIRD CONVOY PUBLIC | FIC",
       "start": "2026-11-27 19:00:00",
       "url": "/events/35968-third-convoy-public|-fic"
     },
