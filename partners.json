@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-30T13:32:13.818Z",
+  "updatedAt": "2026-08-31T01:32:13.834Z",
   "partners": [
     {
       "id": 58774,
@@ -175,6 +175,13 @@
       "name": "KA LOGISTICS",
       "sub_name": "Tuko! Pamoja !",
       "logo": "https://static.truckersmp.com/images/vtc/logo/62215.1761351982.png"
+    },
+    {
+      "id": 74174,
+      "created_at": "2026-08-30T13:57:21.000000Z",
+      "name": "OnlyTangs Haulage",
+      "sub_name": "Drive it like you stole it",
+      "logo": "https://static.truckersmp.com/images/vtc/logo/74174.1737140579.png"
     }
   ]
 }
