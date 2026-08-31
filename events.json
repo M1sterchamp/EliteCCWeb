@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-30T13:32:13.818Z",
+  "updatedAt": "2026-08-31T01:32:13.834Z",
   "events": [
     {
       "id": 34855,
@@ -18,12 +18,6 @@
       "title": "Truck Club | October Convoy",
       "start": "2026-10-26 19:00:00",
       "url": "/events/35348-truck-club|-october-convoy"
-    },
-    {
-      "id": 35488,
-      "title": "Lime's Logistics Monthly Convoy #8",
-      "start": "2026-08-30 17:00:00",
-      "url": "/events/35488-lime%27s-logistics-monthly-convoy#8"
     },
     {
       "id": 35190,
@@ -300,6 +294,108 @@
       "title": "MT Logistica Monthly Convoy November 2026",
       "start": "2026-11-13 20:30:00",
       "url": "/events/35422-mt-logistica-monthly-convoy-november2026"
+    },
+    {
+      "id": 37117,
+      "title": "From Umeå to Honningsvåg. Event Manager Krka's Birthday convoy",
+      "start": "2026-10-22 18:00:00",
+      "url": "/events/37117-from-ume%C3%A5-to-honningsv%C3%A5g.-event-manager-krka%27s-birthday-convoy"
+    },
+    {
+      "id": 36770,
+      "title": "KA LOGISTICS JANUARY PUBLIC CONVOY | 2027: THE JOURNEY BEGINS",
+      "start": "2027-01-20 18:00:00",
+      "url": "/events/36770-ka-logistics-january-public-convoy|2027:-the-journey-begins"
+    },
+    {
+      "id": 36585,
+      "title": "Moonlight Express | January Convoy",
+      "start": "2027-01-21 19:00:00",
+      "url": "/events/36585-moonlight-express|-january-convoy"
+    },
+    {
+      "id": 37217,
+      "title": "Noxen Group 1st Anniversary Convoy",
+      "start": "2027-02-07 18:00:00",
+      "url": "/events/37217-noxen-group1st-anniversary-convoy"
+    },
+    {
+      "id": 37352,
+      "title": "Memorial Convoy — Gone, But Never Forgotten",
+      "start": "2027-02-11 18:00:00",
+      "url": "/events/37352-memorial-convoy%E2%80%94-gone,-but-never-forgotten"
+    },
+    {
+      "id": 37275,
+      "title": "Asphalt-King | 9th Anniversary Convoy",
+      "start": "2027-02-13 18:00:00",
+      "url": "/events/37275-asphalt-king|9th-anniversary-convoy"
+    },
+    {
+      "id": 37267,
+      "title": "KA LOGISTICS FEBRUARY PUBLIC CONVOY | HEARTS & COUNTRY ROADS",
+      "start": "2027-02-14 18:00:00",
+      "url": "/events/37267-ka-logistics-february-public-convoy|-hearts&-country-roads"
+    },
+    {
+      "id": 37305,
+      "title": "Moonlight Express | February Convoy",
+      "start": "2027-02-16 19:00:00",
+      "url": "/events/37305-moonlight-express|-february-convoy"
+    },
+    {
+      "id": 37419,
+      "title": "𝐊𝐀𝐋 𝐂𝐀𝐎 | 𝒮.𝒩𝑔𝒶𝓇𝒾 𝐵𝒾𝓇𝓉𝒽𝒹𝒶𝓎 𝒞𝑜𝓃𝓋𝑜𝓎",
+      "start": "2027-02-21 18:00:00",
+      "url": "/events/37419-%F0%9D%90%8A%F0%9D%90%80%F0%9D%90%8B%F0%9D%90%82%F0%9D%90%80%F0%9D%90%8E|%F0%9D%92%AE.%F0%9D%92%A9%F0%9D%91%94%F0%9D%92%B6%F0%9D%93%87%F0%9D%92%BE%F0%9D%90%B5%F0%9D%92%BE%F0%9D%93%87%F0%9D%93%89%F0%9D%92%BD%F0%9D%92%B9%F0%9D%92%B6%F0%9D%93%8E%F0%9D%92%9E%F0%9D%91%9C%F0%9D%93%83%F0%9D%93%8B%F0%9D%91%9C%F0%9D%93%8E"
+    },
+    {
+      "id": 37238,
+      "title": "ANATOLIA LOGISTICS MONTHLY CONVOY #33",
+      "start": "2027-02-23 18:00:00",
+      "url": "/events/37238-anatolia-logistics-monthly-convoy#33"
+    },
+    {
+      "id": 34356,
+      "title": "TRAILEROS LATINOS - 3RD ANNIVERSARY",
+      "start": "2026-09-13 19:00:00",
+      "url": "/events/34356-traileros-latinos-3rd-anniversary"
+    },
+    {
+      "id": 37149,
+      "title": "ANATOLIA LOGISTICS PUBLIC CONVOY #4",
+      "start": "2026-09-19 18:00:00",
+      "url": "/events/37149-anatolia-logistics-public-convoy#4"
+    },
+    {
+      "id": 37282,
+      "title": "ANATOLİA LOGİSTİCS PUBLİC CONVOY #5",
+      "start": "2026-10-03 18:00:00",
+      "url": "/events/37282-anatoli%CC%87a-logi%CC%87sti%CC%87cs-publi%CC%87c-convoy#5"
+    },
+    {
+      "id": 37478,
+      "title": "🎀KILOMAX Logistique | Pink October Convoy #1🎀",
+      "start": "2026-10-17 14:00:00",
+      "url": "/events/37478-%F0%9F%8E%80kilomax-logistique|-pink-october-convoy#1%F0%9F%8E%80"
+    },
+    {
+      "id": 35632,
+      "title": "Festival Of Lights 🌟 | ITVTC 71st PUBLIC CONVOY",
+      "start": "2026-11-15 13:30:00",
+      "url": "/events/35632-festival-of-lights%F0%9F%8C%9F|-itvtc71st-public-convoy"
+    },
+    {
+      "id": 37564,
+      "title": "OnlyTangs | January Convoy",
+      "start": "2027-01-05 20:00:00",
+      "url": "/events/37564-onlytangs|-january-convoy"
+    },
+    {
+      "id": 37588,
+      "title": "Lime's Logistics Monthly Convoy #11",
+      "start": "2026-11-21 18:00:00",
+      "url": "/events/37588-lime%27s-logistics-monthly-convoy#11"
     }
   ]
 }
