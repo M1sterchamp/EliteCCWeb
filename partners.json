@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-01T17:11:59.074Z",
+  "updatedAt": "2026-09-01T17:16:59.074Z",
   "partners": [
     {
       "id": 58774,
@@ -77,13 +77,6 @@
       "name": "Need Convoy Control",
       "sub_name": "You need it, we beat it",
       "logo": "https://static.truckersmp.com/images/vtc/logo/71412.1713655362.png"
-    },
-    {
-      "id": 77025,
-      "created_at": "2026-01-22T22:37:05.000000Z",
-      "name": "Nørthern Express",
-      "sub_name": "Delivering Excellence, Worldwide.",
-      "logo": "https://static.truckersmp.com/images/vtc/logo/77025.1737671339.png"
     },
     {
       "id": 88278,
