@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-01T12:46:58.668Z",
+  "updatedAt": "2026-09-01T12:51:58.676Z",
   "events": [
     {
       "id": 34855,
@@ -396,6 +396,12 @@
       "title": "OnlyTangs | February Convoy",
       "start": "2027-02-22 20:00:00",
       "url": "/events/37619-onlytangs|-february-convoy"
+    },
+    {
+      "id": 37632,
+      "title": "Halloween Convoy",
+      "start": "2026-10-31 19:00:00",
+      "url": "/events/37632-halloween-convoy"
     }
   ]
 }
